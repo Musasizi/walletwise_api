@@ -21,9 +21,9 @@
  *    │  └─────────── Hour         (0-23)
  *    └────────────── Minute       (0-59)
  *
- *   '0 0 * * *'  → minute 0, hour 0, every day = MIDNIGHT every day
- *   '0 8 * * *'  → minute 0, hour 8, every day = 8 AM every day
- *   '*/5 * * * *'→ every 5 minutes
+ *   '0 0 * * *'    = midnight every day
+ *   '0 8 * * *'    = 8 AM every day
+ *   '* /5 * * * *' = every 5 minutes  (remove the space between * and / when using)
  *
  * KEY CONCEPT – Why snapshot the balance?
  *
